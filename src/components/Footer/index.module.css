@@ -1,0 +1,40 @@
+.container {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 14px;
+  padding: 20px 20px;
+}
+
+.container * {
+  font-size: 12px;
+  line-height: 100%;
+}
+
+.pagesBtnsContainer {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.pageBtn {
+  display: flex;
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+.sponsorContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 8px;
+}
+
+.img {
+  width: 84px;
+}

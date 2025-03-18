@@ -1,0 +1,29 @@
+.container {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-bottom: 1px solid rgba(237, 237, 237, 1);
+}
+
+.title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.menuBtn {
+  display: flex;
+  position: absolute;
+  left: 20px;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}

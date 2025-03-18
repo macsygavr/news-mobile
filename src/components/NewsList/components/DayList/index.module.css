@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.date {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 11px;
+}
+
+.newsList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
